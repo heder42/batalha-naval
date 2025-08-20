@@ -34,7 +34,7 @@ void mostraTabuleiro(int tabuleiro[][5])
     }
 
 void iniciaNavios(int navios[][2]){
-        srand(time(NULL));
+        rand(time(NULL));
         int navio, anterior;
 
         for(navio=0 ; navio < 3 ; navio++){
